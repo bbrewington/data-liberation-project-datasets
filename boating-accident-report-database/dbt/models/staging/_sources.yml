@@ -1,0 +1,45 @@
+version: 2
+sources:
+  - name: data_local
+    tables:
+      # 2009-2013 period
+      - name: accidents_2009_2013
+        config:
+          external_location: "data_local/bard-2009-2013-ReleasableAccidents.parquet"
+      - name: deaths_2009_2013
+        config:
+          external_location: "data_local/bard-2009-2013-ReleasableDeaths.parquet"
+      - name: injuries_2009_2013
+        config:
+          external_location: "data_local/bard-2009-2013-ReleasableInjuries.parquet"
+      - name: vessels_2009_2013
+        config:
+          external_location: "data_local/bard-2009-2013-ReleasableVessels.parquet"
+      
+      # 2014-2022 period
+      - name: accidents_2014_2022
+        config:
+          external_location: "data_local/bard-2014-2022-ReleasableAccidentes.parquet"
+      - name: deaths_2014_2022
+        config:
+          external_location: "data_local/bard-2014-2022-ReleasableDeaths.parquet"
+      - name: injuries_2014_2022
+        config:
+          external_location: "data_local/bard-2014-2022-ReleasableInjuries.parquet"
+      - name: vessels_2014_2022
+        config:
+          external_location: "data_local/bard-2014-2022-ReleasableVessels.parquet"
+      
+      # 2023 period
+      - name: accidents_2023
+        config:
+          external_location: "data_local/bard-2023-2023-ReleasableAccidents.parquet"
+      - name: deaths_2023
+        config:
+          external_location: "data_local/bard-2023-2023-ReleasableDeaths.parquet"
+      - name: injuries_2023
+        config:
+          external_location: "data_local/bard-2023-2023-ReleasableInjuries.parquet"
+      - name: vessels_2023
+        config:
+          external_location: "data_local/bard-2023-2023-ReleasableVessels.parquet"

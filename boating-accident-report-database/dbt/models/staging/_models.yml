@@ -1,0 +1,52 @@
+version: 2
+
+models:
+  # Accidents models
+  - name: stg__accidents_2009_2013
+    description: "{{ doc('stg__accidents') }}"
+  - name: stg__accidents_2014_2022
+    description: "{{ doc('stg__accidents') }}"
+  - name: stg__accidents_2023
+    description: "{{ doc('stg__accidents') }}"
+  
+  # Deaths models
+  - name: stg__deaths_2009_2013
+    description: |
+      Deaths data for 2009-2013 period
+      "{{ doc('stg__deaths') }}"
+  - name: stg__deaths_2014_2022
+    description: |
+      Deaths data for 2014-2022 period
+      "{{ doc('stg__deaths') }}"
+  - name: stg__deaths_2023
+    description: |
+      Deaths data for 2023 period
+      "{{ doc('stg__deaths') }}"
+  
+  # Injuries models
+  - name: stg__injuries_2009_2013
+    description: |
+      Injuries data for 2009-2013 period
+      "{{ doc('stg__injuries') }}"
+  - name: stg__injuries_2014_2022
+    description: |
+      Injuries data for 2014-2022 period
+      "{{ doc('stg__injuries') }}"
+  - name: stg__injuries_2023
+    description: |
+      Injuries data for 2023 period
+      "{{ doc('stg__injuries') }}"
+  
+  # Vessels models
+  - name: stg__vessels_2009_2013
+    description: |
+      Vessels data for 2009-2013 period
+      "{{ doc('stg__vessels') }}"
+  - name: stg__vessels_2014_2022
+    description: |
+      Vessels data for 2014-2022 period
+      "{{ doc('stg__vessels') }}"
+  - name: stg__vessels_2023
+    description: |
+      Vessels data for 2023 period
+      "{{ doc('stg__vessels') }}"
