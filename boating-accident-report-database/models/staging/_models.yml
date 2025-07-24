@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: stg__accidents_2009_2013
+    description: "{{ doc('stg__accidents') }}"
