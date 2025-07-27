@@ -1,0 +1,11 @@
+[project]
+name = "army-slot-machines"
+version = "0.1.0"
+description = "Working with data for Data Liberation Project - Army Slot Machines (https://www.data-liberation-project.org/requests/dod-army-slot-machines/)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.1",
+    "pdfplumber>=0.11.7",
+    "pymupdf>=1.26.3",
+]
