@@ -53,7 +53,8 @@ renamed as (
         WaterConditions as water_conditions,
         WaterTemperature as water_temperature,
         Wind as wind,
-        Year as year
+        Year as year,
+        'accidents_2009_2013' as data_source
     from input_source
 )
 

@@ -6,21 +6,38 @@ with combined as (
     select * from {{ ref('stg__accidents_2023') }}
 ),
 
-cleaned as (
+replaces as (
     select *
         replace (
             {{ initcap('day_of_week') }} as day_of_week,
             {{ initcap('name_of_body_of_water') }} as name_of_body_of_water,
             accident_date::DATE as accident_date,
-            {{ binary_str_yn('a_vessel_loss') }} as a_vessel_loss,
-            {{ binary_int('clear') }} as clear,
-            {{ binary_int('cloudy') }} as cloudy,
-            {{ binary_int('fog') }} as fog,
-            {{ binary_int('hazy') }} as hazy,
-            {{ binary_int('rain') }} as rain,
-            {{ binary_int('snow') }} as snow,
-            case when day_night = -1 then 'day' when day_night = 0 then 'night' else null end as day_night
+            {{ binarify('a_vessel_loss') }} as a_vessel_loss,
+            case when day_night = -1 then 'day' when day_night = 0 then 'night' else null end as day_night,
+            {{ binarify('hazardous_waters') }} as hazardous_waters,
+            {{ binarify('meets_damage_threshold') }} as meets_damage_threshold,
+            {{ binarify('meets_injury_threshold') }} as meets_injury_threshold,
+        )
+    from combined
+),
+
+mutate as (
+    select *
+        exclude(
+            clear,
+            cloudy,
+            fog,
+            hazy,
+            rain,
+            snow
         ),
+
+        {{ binarify('clear') }} as weather_clear,
+        {{ binarify('cloudy') }} as weather_cloudy,
+        {{ binarify('fog') }} as weather_fog,
+        {{ binarify('hazy') }} as weather_hazy,
+        {{ binarify('rain') }} as weather_rain,
+        {{ binarify('snow') }} as weather_snow,
 
         case 
             when accident_date is not null and accident_time is not null then 'Complete'
@@ -31,7 +48,7 @@ cleaned as (
             when latitude is not null and longitude is not null then 'Available'
             else 'Not Available'
         end as coordinates_availability,
-    from combined
+    from replaces
 )
 
-select * from cleaned
+select * from mutate

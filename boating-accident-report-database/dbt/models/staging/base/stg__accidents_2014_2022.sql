@@ -4,7 +4,7 @@ with input_source as (
 
 renamed as (
     select
-        BARDID as bardid,
+        BARDID as bard_id,
         AccidentCause1 as accident_cause1,
         AccidentCause2 as accident_cause2,
         AccidentCause3 as accident_cause3,
@@ -51,6 +51,7 @@ renamed as (
         WaterTemperature as water_temperature,
         Wind as wind,
         Year as year,
+        'accidents_2014_2022' as data_source
     from input_source
 )
 
