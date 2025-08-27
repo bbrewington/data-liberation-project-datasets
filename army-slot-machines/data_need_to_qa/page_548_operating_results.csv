@@ -1,0 +1,21 @@
+category,line_item,march_actual,march_budget,march_variance,ytd_actual,ytd_budget,ytd_variance,march_variance_pct,ytd_variance_pct
+revenue,Gaming Machine Revenue,4594683.2,0.0,4594683.2,4594683.2,0.0,4594683.2,0,0
+revenue,Total Revenue,4594683.2,0.0,4594683.2,4594683.2,0.0,4594683.2,0,0
+direct_reimbursement,Gaming NAFI,2177991.05,0.0,2177991.05,2177991.05,0.0,2177991.05,0,0
+direct_reimbursement,Total Direct Reimbursement,2177991.05,0.0,2177991.05,2177991.05,0.0,2177991.05,0,0
+net_revenue,Net Revenue,2416692.15,0.0,2416692.15,2416692.15,0.0,2416692.15,0,0
+operating_expenses,Compensation & Benefits,706603.33,0.0,706603.33,706603.33,0.0,706603.33,0,0
+operating_expenses,Depreciation Expense,372411.47,0.0,372411.47,372411.47,0.0,372411.47,0,0
+operating_expenses,Contractor Fees,2266.0,0.0,2266.0,2266.0,0.0,2266.0,0,0
+operating_expenses,Communications,20265.16,0.0,20265.16,20265.16,0.0,20265.16,0,0
+operating_expenses,TDY,10265.87,0.0,10265.87,10265.87,0.0,10265.87,0,0
+operating_expenses,PCS,2874.99,0.0,2874.99,2874.99,0.0,2874.99,0,0
+operating_expenses,IT Expense & Maint,23451.36,0.0,23451.36,23451.36,0.0,23451.36,0,0
+operating_expenses,Machine Expense & Maint,993.71,0.0,993.71,993.71,0.0,993.71,0,0
+operating_expenses,Vehicle Expense,2572.52,0.0,2572.52,2572.52,0.0,2572.52,0,0
+operating_expenses,Audit-Independent,9251.13,0.0,9251.13,9251.13,0.0,9251.13,0,0
+operating_expenses,Audit-IMCOM Int Review,1565.41,0.0,1565.41,1565.41,0.0,1565.41,0,0
+operating_expenses,Other Expenses,17429.99,0.0,17429.99,17429.99,0.0,17429.99,0,0
+net_operating_income,Net Operating Income,1246741.21,0.0,1246741.21,1246741.21,0.0,1246741.21,0,0
+other_income,Interest Revenue,28254.13,0.0,28254.13,28254.13,0.0,28254.13,0,0
+net_income,Net Income,1283964.61,0.0,1283964.61,1283964.61,0.0,1283964.61,0,0
