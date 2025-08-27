@@ -2,7 +2,7 @@ from split_pdf import split_pdf
 from financial_statement_extractor import FinancialStatementExtractor, format_report_df, output_report
 
 START_PAGE = 1
-END_PAGE = 10
+END_PAGE = 712 # change this to a number like 10 to do a smaller scope run
 
 def main(run_split=False):
     if run_split:
