@@ -4,6 +4,27 @@ Yep, this is a terrible topic.  But the work in this repo is going to help journ
 
 Docs page: https://www.data-liberation-project.org/requests/dod-child-and-domestic-abuse-incidents/
 
+## Overall flow
+
+```mermaid
+flowchart LR
+    dod_abuse["Code in<br>/dod_abuse"]-->dbt["dbt-duckdb<br>\(local\)"]
+    dbt-->DuckDB
+    DuckDB-->parquet[".parquet<br>file"]
+    parquet-->python_script["eda.py"]
+    python_script-->sweetviz_html["SweetViz EDA<br>HTML report"]
+```
+
+## dbt Notes
+
+The folder [dod_abuse](dod_abuse) is a "dbt" project, meant to be run locally with DuckDB (see instructions in section below)
+
+File types & folders:
+- CSV mapping "seed" files are in the [dod_abuse/seeds](dod_abuse/seeds) folder (lineage color: gray)
+- SQL files are in the [dod_abuse/models](dod_abuse/models) folder (lineage color: gray)
+
+![Lineage Diagram](docs/lineage.png)
+
 ## How to run locally
 
 1. Install uv: https://docs.astral.sh/uv/getting-started/installation/

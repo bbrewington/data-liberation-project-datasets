@@ -1,3 +1,4 @@
 .venv/
 data_local/
 __pycache__/
+*.duckdb
