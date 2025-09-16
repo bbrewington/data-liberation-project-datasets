@@ -1,0 +1,245 @@
+Situation Identifier (F1)
+-------------------------
+Cardinality: 1
+Single value: (b)(6)
+
+FAP UIC (F2)
+------------
+Cardinality: 1
+Single value: (b)(6)
+
+US State Alpha Code (F3)
+------------------------
+Cardinality: 1
+Single value: (b)(6)
+
+Country Code (F4)
+-----------------
+Cardinality: 17
+Top 5 unique values: 'UK', 'TU', 'SG', 'RK', 'KS'
+Bottom 5 unique values: ' ', 'BE', 'BH', 'CU', 'ES'
+
+Incident Report Date (F5)
+-------------------------
+Cardinality: 3196
+Range: 19970130 - 20230919
+Military Service Organization Code (F6)
+---------------------------------------
+Cardinality: 4
+Unique values: 'A', 'F', 'M', 'N'
+Unique elements: 'A', 'F', 'M', 'N'
+
+Organization Name Text (F7)
+---------------------------
+Cardinality: 1
+Single value: (b)(6)
+
+Victim Type Code (F8)
+---------------------
+Cardinality: 2
+Unique values: 'A', 'C'
+Unique elements: 'A', 'C'
+
+Alleged Abuse Code (F9)
+-----------------------
+Cardinality: 15
+Unique values: '   J', '  I ', '  IJ', ' H  ', ' H J', ' HI ', ' HIJ', 'C   ', 'C  J', 'C I ', 'C IJ', 'CH  ', 'CH J', 'CHI ', 'CHIJ'
+Unique elements: ' ', 'C', 'H', 'I', 'J'
+
+Person Status Code (F10)
+------------------------
+Cardinality: 2
+Unique values: 'A', 'B'
+Unique elements: 'A', 'B'
+
+Deceased Victim Previously Known to the DoD Central Registry (F11)
+------------------------------------------------------------------
+Cardinality: 3
+Unique values: ' ', 'N', 'Y'
+Unique elements: ' ', 'N', 'Y'
+
+Alleged Abuser of Decedent Previously Known to the DoD Central Registry (F12)
+-----------------------------------------------------------------------------
+Cardinality: 3
+Unique values: ' ', 'N', 'Y'
+Unique elements: ' ', 'N', 'Y'
+
+Situation Incident Findings Date (F13A)
+---------------------------------------
+Cardinality: 2042
+Range: 20151001 - 20230929
+Alleged Abuser Previously Known to the Submitting Service CR in Met Criteria Case as Abuser (F13B)
+--------------------------------------------------------------------------------------------------
+Cardinality: 3
+Unique values: ' ', 'N', 'Y'
+Unique elements: ' ', 'N', 'Y'
+
+Incident Did Not Meet Criteria for Abuse (F13C)
+-----------------------------------------------
+Cardinality: 2
+Unique values: 'N', 'Y'
+Unique elements: 'N', 'Y'
+
+Incident Did Not Meet Criteria for Abuse But Referred for Services (F13D)
+-------------------------------------------------------------------------
+Cardinality: 2
+Unique values: 'N', 'Y'
+Unique elements: 'N', 'Y'
+
+Incident Met Criteria for Abuse (F13E)
+--------------------------------------
+Cardinality: 2
+Unique values: 'N', 'Y'
+Unique elements: 'N', 'Y'
+
+Incident Met Criteria – Date Transferred In from another location (F13F)
+------------------------------------------------------------------------
+Cardinality: 1483
+Range: 20100708 - 20240207
+Incident Met Criteria – Date the incident transferred out to another location (F13G)
+------------------------------------------------------------------------------------
+Cardinality: 1407
+Range: 20100708 - 20240207
+Incident Met Criteria – Closed Date (F13H)
+------------------------------------------
+Cardinality: 2045
+Range: 20060727 - 20241214
+Person Association Reason Code (F14)
+------------------------------------
+Cardinality: 11
+Unique values: ' ', 'AA', 'AC', 'AD', 'BC', 'BE', 'BH', 'BN', 'BX', 'CA', 'CC'
+Unique elements: ' ', 'A', 'B', 'C', 'D', 'E', 'H', 'N', 'X'
+
+Extrafamilial Caregiver Type Code (F15)
+---------------------------------------
+Cardinality: 7
+Unique values: ' ', 'A', 'B', 'C', 'D', 'E', 'F'
+Unique elements: ' ', 'A', 'B', 'C', 'D', 'E', 'F'
+
+Personnel Resource Type Code (F18)
+----------------------------------
+Cardinality: 4
+Unique values: ' ', 'C', 'U', 'Z'
+Unique elements: ' ', 'C', 'U', 'Z'
+
+Uniformed Service Organization Code (F19)
+-----------------------------------------
+Cardinality: 7
+Unique values: ' ', 'A', 'C', 'F', 'M', 'N', 'S'
+Unique elements: ' ', 'A', 'C', 'F', 'M', 'N', 'S'
+
+Military Service Organization Component Type Code (F20)
+-------------------------------------------------------
+Cardinality: 4
+Unique values: ' ', 'G', 'R', 'V'
+Unique elements: ' ', 'G', 'R', 'V'
+
+Pay Plan Code (F21)
+-------------------
+Cardinality: 8
+Unique values: ' ', 'EM', 'ES', 'GS', 'NF', 'OM', 'WG', 'WM'
+Unique elements: ' ', 'E', 'F', 'G', 'M', 'N', 'O', 'S', 'W'
+
+Person-Situation Role Code (F23)
+--------------------------------
+Cardinality: 4
+Unique values: ' ', 'E', 'H', 'Z'
+Unique elements: ' ', 'E', 'H', 'Z'
+
+Victim Person Birth Year (F26)
+------------------------------
+Cardinality: 76
+Range: 1886 - 2023
+Sex Category Code (F27)
+-----------------------
+Cardinality: 3
+Unique values: ' ', 'F', 'M'
+Unique elements: ' ', 'F', 'M'
+
+Personnel Resource Type Code (F28)
+----------------------------------
+Cardinality: 6
+Unique values: ' ', 'C', 'F', 'N', 'U', 'Z'
+Unique elements: ' ', 'C', 'F', 'N', 'U', 'Z'
+
+Substance Involvement (F29)
+---------------------------
+Cardinality: 14
+Unique values: ' ', 'A', 'AD', 'AU', 'AZ', 'D', 'U', 'UD', 'UU', 'UZ', 'Z', 'ZD', 'ZU', 'ZZ'
+Unique elements: ' ', 'A', 'D', 'U', 'Z'
+
+Emotional Abuse Severity Code (F30A)
+------------------------------------
+Cardinality: 5
+Unique values: ' ', '0', '1', '2', '3'
+Unique elements: ' ', '0', '1', '2', '3'
+
+Neglect Severity Code (F30B)
+----------------------------
+Cardinality: 5
+Unique values: ' ', '0', '1', '2', '3'
+Unique elements: ' ', '0', '1', '2', '3'
+
+Physical Abuse Severity Code (F30C)
+-----------------------------------
+Cardinality: 5
+Unique values: ' ', '0', '1', '2', '3'
+Unique elements: ' ', '0', '1', '2', '3'
+
+Sexual Abuse Severity Code (F30D)
+---------------------------------
+Cardinality: 5
+Unique values: ' ', '0', '1', '2', '3'
+Unique elements: ' ', '0', '1', '2', '3'
+
+At Case Closure, Clinical Intervention Provided by (F31)
+--------------------------------------------------------
+Cardinality: 16
+Top 5 unique values: 'ZZZ', 'ZY', 'Z', 'YZ', 'YX'
+Bottom 5 unique values: ' ', 'K', 'KX', 'KXZ', 'KY'
+
+Alleged Abuser Person Birth Year (F34)
+--------------------------------------
+Cardinality: 88
+Range: 1876 - 2023
+Alleged Abuser Sex Category Code (F35)
+--------------------------------------
+Cardinality: 3
+Unique values: ' ', 'F', 'M'
+Unique elements: ' ', 'F', 'M'
+
+Personnel Resource Type Code (F36)
+----------------------------------
+Cardinality: 6
+Unique values: ' ', 'C', 'F', 'N', 'U', 'Z'
+Unique elements: ' ', 'C', 'F', 'N', 'U', 'Z'
+
+Military Service Organizational Code (F37)
+------------------------------------------
+Cardinality: 6
+Unique values: ' ', 'A', 'F', 'M', 'N', 'S'
+Unique elements: ' ', 'A', 'F', 'M', 'N', 'S'
+
+Military Service Organizational Component Type Code (F38)
+---------------------------------------------------------
+Cardinality: 4
+Unique values: ' ', 'G', 'R', 'V'
+Unique elements: ' ', 'G', 'R', 'V'
+
+Pay Plan Code (F39)
+-------------------
+Cardinality: 8
+Unique values: ' ', 'EM', 'ES', 'GS', 'NF', 'OM', 'WG', 'WM'
+Unique elements: ' ', 'E', 'F', 'G', 'M', 'N', 'O', 'S', 'W'
+
+Substance Involvement (F43)
+---------------------------
+Cardinality: 14
+Unique values: ' ', 'A', 'AD', 'AU', 'AZ', 'D', 'U', 'UD', 'UU', 'UZ', 'Z', 'ZD', 'ZU', 'ZZ'
+Unique elements: ' ', 'A', 'D', 'U', 'Z'
+
+At Case Closure Clinical Intervention Provided By (F44)
+-------------------------------------------------------
+Cardinality: 15
+Unique values: ' ', 'K', 'K X', 'KX', 'KXZ', 'KY', 'KYX', 'KYZ', 'KZ', 'X', 'XZ', 'Y', 'YX', 'YZ', 'Z'
+Unique elements: ' ', 'K', 'X', 'Y', 'Z'

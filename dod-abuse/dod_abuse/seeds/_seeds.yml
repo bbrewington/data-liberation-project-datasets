@@ -1,0 +1,10 @@
+version: 2
+
+seeds:
+  - name: country_codes
+    description: |
+      url_source: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+  - name: dod_fap_table1
+    description: |
+      Department of Defense, “Instruction 6400.01: Family Advocacy Program (FAP),” Aug 11, 2016.
+        https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/640001m_vol2.pdf.

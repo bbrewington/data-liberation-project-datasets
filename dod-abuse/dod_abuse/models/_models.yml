@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg__foia_24_f_0024
+    description: "{{ doc('stg__foia_24_f_0024__fields') }}"
+    config:
+      materialized: table
+  - name: int__foia_24_f_0024
+    config:
+      materialized: table

@@ -1,0 +1,12 @@
+[project]
+name = "dod-abuse"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.10.5",
+    "dbt-duckdb>=1.9.4",
+    "pandas>=2.3.2",
+]
+
+[dependency-groups]
+temp = []
